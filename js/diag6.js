@@ -3,20 +3,36 @@ google.charts.load('current', {'packages':['corechart']});
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Sales', 'Expenses'],
-          ['2004',  1000,      400],
-          ['2005',  1170,      460],
-          ['2006',  660,       1120],
-          ['2007',  1030,      540]
+          ['Площадь ЦОД', 'Годовая стоимость за стойку', 'Годовая стоимость за кВт'],
+          ['2004',  100000,  105000],
+          ['2005',  75000,    55000],
+          ['2006',  55000,    35000],
+          ['2007',  50000,    25000],
+          ['2007',  40000,    20000]
         ]);
 
         var options = {
-          title: 'Company Performance',
           curveType: 'function',
-          legend: { position: 'bottom' },
             backgroundColor: 'none',
+            legend: {position: 'bottom',
+                 textStyle: {color: 'white' }
+            },
+            titleTextStyle: {
+                 color: 'white'
+        },
             width: 900,
-        height: 500
+        height: 500,
+            hAxis: {
+          minValue: 0,
+            textStyle: {
+                color: 'white'
+  }
+        },
+          vAxis: {
+            textStyle: {
+                color: 'white'
+  }
+        },
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('air6'));

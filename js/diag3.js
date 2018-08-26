@@ -17,15 +17,27 @@ function drawStacked() {
       ]);
 
       var options = {
-        title: 'Population of Largest U.S. Cities',
-        chartArea: {width: '50%'},
+        title: 'Лидеры рынка Colocation Q1 2018',
+        chartArea: {width: '70%'},
         isStacked: true,
+          legend: {position: 'bottom',
+                 textStyle: {color: 'white'}
+            },
+          titleTextStyle: {
+                 color: 'white'
+        },
         hAxis: {
           minValue: 0,
-            
+            textStyle: {
+                color: 'white'
+  }
         },
-          backgroundColor: 'none',
-          legend: { color: 'white' }
+          vAxis: {
+            textStyle: {
+                color: 'white'
+  }
+        },
+          backgroundColor: 'none'
       };
       var chart = new google.visualization.BarChart(document.getElementById('air3'));
       chart.draw(data, options);

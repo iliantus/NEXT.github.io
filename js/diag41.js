@@ -17,9 +17,27 @@ google.charts.load('current', {'packages':['bar']});
 
         var options = {
           chart: {
-            title: 'Глобальный рынок услуг дата-центров 2016-2024'
+            title: 'Глобальный рынок услуг дата-центров 2016-2024',
+              
           },
             backgroundColor: 'none',
+            legend: { position: 'bottom',
+                 textStyle: {color: 'white'}
+            },
+            titleTextStyle: {
+                 color: 'white'
+        },
+            hAxis: {
+          minValue: 0,
+            textStyle: {
+                color: 'white'
+  }
+        },
+          vAxis: {
+            textStyle: {
+                color: 'white'
+  }
+        },
         };
 
         var chart = new google.charts.Bar(document.getElementById('air41'));

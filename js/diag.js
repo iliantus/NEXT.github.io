@@ -12,6 +12,12 @@ google.charts.load("current", {packages:["corechart"]});
           pieHole: 0.5,
             pieSliceText: 'none',
             backgroundColor: 'none',
+            legend: { 
+                 textStyle: {color: 'white'}
+            },
+            titleTextStyle: {
+                 color: 'white'
+        },
             width: 900,
         height: 500
         };

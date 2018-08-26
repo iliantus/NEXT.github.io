@@ -19,6 +19,23 @@ google.charts.load('current', {'packages':['bar']});
               
           },
             backgroundColor: 'none',
+            legend: { 
+                 textStyle: {color: 'white'}
+            },
+            titleTextStyle: {
+                 color: 'white'
+        },
+            hAxis: {
+          minValue: 0,
+            textStyle: {
+                color: 'white'
+  }
+        },
+          vAxis: {
+            textStyle: {
+                color: 'white'
+  }
+        },
         };
 
         var chart = new google.charts.Bar(document.getElementById('air4'));
