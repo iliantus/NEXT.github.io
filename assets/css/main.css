@@ -3892,12 +3892,7 @@ input, select, textarea {
 		}
 
 
-.text4{
-    display: inline-block;
-    width: 700px;
-    margin: 50px 0px 0px 30px;
-}
-.text4 1{
+.text4 {
     display: inline-block;
     width: 700px;
     margin: 50px 0px 0px 30px;
@@ -3912,7 +3907,6 @@ input, select, textarea {
 }
 .map1{
     margin: 50px auto;
-    background-image: url(jazure.JPG);
     width: 1200px;
     height: 600px;
     box-shadow: 0 0 10px rgba(0,0,0,1);

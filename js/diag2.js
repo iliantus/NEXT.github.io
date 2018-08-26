@@ -8,15 +8,14 @@ google.charts.load("current", {packages:["corechart"]}); google.charts.setOnLoad
         ]);
 
         var options = {
-          title: 'Мировой рынок ЦОД по регионам',
+          title: 'Распределение мирового рынока ЦОД по регионам',
           pieHole: 0.65,
-            
             backgroundColor: 'none',
             legend: { position: 'bottom',
                  textStyle: {color: 'white'}
             },
             titleTextStyle: {
-                 color: 'white'
+                 color: 'white', 
         }
             
         };
