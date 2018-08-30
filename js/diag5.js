@@ -19,6 +19,7 @@ google.charts.load('current', {'packages':['line']});
       ]);
 
       var options = {
+         lineWidth: 5,
         chart: {
           title: 'Тройка игроков, на которую приходится 55% мирового рынка услуг'
         },
@@ -31,6 +32,7 @@ google.charts.load('current', {'packages':['line']});
           backgroundColor: 'none',
         width: 900,
         height: 500,
+          
           hAxis: {
           minValue: 0,
             textStyle: {
@@ -42,6 +44,7 @@ google.charts.load('current', {'packages':['line']});
                 color: 'white'
   }
         },
+         
       };
 
       var chart = new google.charts.Line(document.getElementById('air5'));

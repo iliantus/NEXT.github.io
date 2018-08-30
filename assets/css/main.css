@@ -3938,13 +3938,14 @@ input, select, textarea {
 }
 #air42{
     margin: auto;
-    width: 900px;
-    height: 900px;
+    width: 800px;
+    height: 600px;
 }
 .air44{
     display: inline-block;
 }
 .img1{
     margin-top: 10%;
-    max-width: 420px;
+    margin-left: 15px;
+    max-width: 400px;
 }

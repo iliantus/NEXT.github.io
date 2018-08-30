@@ -12,6 +12,7 @@ google.charts.load('current', {'packages':['corechart']});
         ]);
 
         var options = {
+             lineWidth: 5,
           curveType: 'function',
             backgroundColor: 'none',
             legend: {position: 'bottom',
