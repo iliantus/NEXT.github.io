@@ -3,7 +3,7 @@ google.charts.load('current', {'packages':['corechart']});
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Площадь ЦОД', 'Годовая стоимость за стойку', 'Годовая стоимость за кВт'],
+          ['Год', 'Годовая стоимость за стойку', 'Годовая стоимость за кВт'],
           ['2004',  100000,  105000],
           ['2005',  75000,    55000],
           ['2006',  55000,    35000],

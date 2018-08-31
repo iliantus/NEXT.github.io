@@ -4,7 +4,7 @@ google.charts.load('current', {'packages':['bar']});
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-         ['Year', 'BPaaS', 'PaaS', 'SaaS', 'IaaS', 'IaaS','Cloud Advertising'],
+         ['Год', 'BPaaS', 'PaaS', 'SaaS', 'IaaS', 'IaaS','Cloud Advertising'],
           ['2014', 40, 9, 48, 7, 25, 90],
           ['2015', 42, 11, 59, 9, 35, 105],
           ['2016', 46, 14, 71, 10, 46, 119],

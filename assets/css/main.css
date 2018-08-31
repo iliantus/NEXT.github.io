@@ -3920,29 +3920,36 @@ input, select, textarea {
 }
 #air2{
     margin: auto;
-    width: 800px;
+    width: 900px;
     height: 500px;
 }
 #air3{
     margin: auto;
-    width: 800px;
+    width: 900px;
     height: 500px;
 }
 #air4{
-    width: 620px;
+    padding: auto;
+    width: 900px;
     height: 500px;
+    margin: auto;
 }
 #air41{
-    width: 620px;
+    margin: auto;
+    padding: auto;
+    width: 900px;
     height: 500px;
 }
 #air42{
     margin: auto;
-    width: 800px;
+    width: 900px;
     height: 600px;
 }
-.air44{
-    display: inline-block;
+#air43{
+    margin: auto;
+    margin-left: 50px;
+    width: 1000px;
+    height: 600px;
 }
 .img1{
     margin-top: 10%;

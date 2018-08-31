@@ -1,37 +1,27 @@
-google.charts.load('current', {'packages':['line']});
+google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
 
     function drawChart() {
-
-      var data = new google.visualization.DataTable();
-        data.addColumn('number', 'Year');
-      data.addColumn('number', 'Microsoft');
-      data.addColumn('number', 'AWS');
-      data.addColumn('number', 'Google');
-
-      data.addRows([
-        [1,  13, 34, 6],
-        [2,  15, 30, 6],
-        [3,  15, 33, 7],
-        [4,  14, 33, 10],
-        [5,  17, 32, 8]
-        
-      ]);
-
+ var data = google.visualization.arrayToDataTable([
+          ['Квартал', 'Microsoft', 'AWS', 'Google'],
+          ['1Q2017',  13, 34, 6],
+          ['2Q2017',  15, 30, 6],
+          ['3Q2017',  15, 33, 7],
+          ['4Q2017',  14, 33, 10],
+          ['1Q2018',  17, 32, 8]
+        ]);
       var options = {
          lineWidth: 5,
-        chart: {
-          title: 'Тройка игроков, на которую приходится 55% мирового рынка услуг'
-        },
+        
           titleTextStyle: {
                  color: 'white'
         },
-          legend: { position: 'bottom',
+          legend: { 
                  textStyle: {color: 'white'}
             },
           backgroundColor: 'none',
-        width: 900,
-        height: 500,
+        width: 1000,
+        height: 600,
           
           hAxis: {
           minValue: 0,
@@ -47,7 +37,7 @@ google.charts.load('current', {'packages':['line']});
          
       };
 
-      var chart = new google.charts.Line(document.getElementById('air5'));
+      var chart = new google.visualization.LineChart(document.getElementById('air5'));
 
-      chart.draw(data, google.charts.Line.convertOptions(options));
+      chart.draw(data, options);
     }
