@@ -12,12 +12,15 @@ google.charts.load('current', {'packages':['corechart']});
         ]);
       var options = {
          lineWidth: 5,
-        
+        series: {
+            0: { color: '#4BC0EC' },
+            1: { color: '#ECB64B' },
+            2: { color: '#4BEC9B' }},
           titleTextStyle: {
                  color: 'white'
         },
-          legend: { 
-                 textStyle: {color: 'white'}
+          legend: {position: 'bottom',
+                 textStyle: {color: 'white' }
             },
           backgroundColor: 'none',
         width: 1000,

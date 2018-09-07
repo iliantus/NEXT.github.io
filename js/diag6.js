@@ -12,6 +12,9 @@ google.charts.load('current', {'packages':['corechart']});
         ]);
 
         var options = {
+            series: {
+            0: { color: '#4BC0EC' },
+            1: { color: '#EC5F4B' }},
              lineWidth: 5,
           curveType: 'function',
             backgroundColor: 'none',

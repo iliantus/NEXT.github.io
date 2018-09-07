@@ -9,7 +9,7 @@ google.charts.load("current", {packages:["corechart"]}); google.charts.setOnLoad
 
         var options = {
           title: 'Распределение мирового рынока ЦОД по регионам',
-          pieHole: 0.65,
+          pieHole: 0.55,
             backgroundColor: 'none',
             legend: { position: 'bottom',
                  textStyle: {color: 'white'}

@@ -13,6 +13,13 @@ google.charts.load('current', {'packages':['bar']});
         ]);
 
         var options = {
+            series: {
+            0: { color: '#E16673' },
+            1: { color: '#E1B266' },
+            2: { color: '#96E166' },
+            3: { color: '#66E1C0' },
+            4: { color: '#669EE1' },
+            5: { color: '#B366E1' }},
             isStacked: true,
             hAxis: {
           minValue: 0,
