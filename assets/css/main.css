@@ -3947,15 +3947,17 @@ input, select, textarea {
 }
 #air4{
     padding: auto;
-    width: 900px;
+    width: 800px;
     height: 500px;
     margin: auto;
+    padding-right: 50px;
 }
 #air41{
     margin: auto;
     padding: auto;
-    width: 900px;
+    width: 800px;
     height: 500px;
+    padding-right: 10px;
 }
 #air42{
     margin: auto;
