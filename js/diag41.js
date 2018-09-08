@@ -3,7 +3,7 @@ google.charts.load('current', {'packages':['bar']});
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Год', 'Объём'],
+          ['Год', 'Объём .'],
           ['2016', 26.12],
           ['2017', 30],
           ['2018', 41],

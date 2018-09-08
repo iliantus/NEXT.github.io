@@ -2509,6 +2509,18 @@ input, select, textarea {
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
 		}
+.icon.major2 {
+			width: 2.5em;
+			height: 2.5em;
+			display: block;
+			background: #b74e91;
+			border-radius: 100%;
+			color: #312450;
+			text-align: center;
+			line-height: 2.5em;
+			margin: 0 0 1.3em 0;
+		}
+
 
 			.icon.major:before {
 				font-size: 1.25em;
@@ -3960,3 +3972,16 @@ input, select, textarea {
     margin-left: 15px;
     max-width: 400px;
 }
+#graf12{
+    text-align: center;
+}
+@media screen and (max-width: 736px) {
+ #ic {
+		width: 25%;	}
+
+		}
+@media screen and (max-width: 480px) {
+	 #ic {
+		width: 35%;	}
+
+		}

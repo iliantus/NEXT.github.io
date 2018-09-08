@@ -1,5 +1,5 @@
 
-google.charts.load('current', {'packages':['bar']});
+google.charts.load('current', {'packages':['corechart','bar']});
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
@@ -13,6 +13,9 @@ google.charts.load('current', {'packages':['bar']});
         ]);
 
         var options = {
+             legend: {position: 'bottom',
+                 textStyle: {color: 'white'}
+            },
             series: {
             0: { color: '#E16673' },
             1: { color: '#E1B266' },
@@ -37,9 +40,6 @@ google.charts.load('current', {'packages':['bar']});
               
           },
             backgroundColor: 'none',
-            legend: { position: 'bottom',
-                 textStyle: {color: 'white'}
-            },
             titleTextStyle: {
                  color: 'white'
         },

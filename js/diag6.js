@@ -18,7 +18,7 @@ google.charts.load('current', {'packages':['corechart']});
              lineWidth: 5,
           curveType: 'function',
             backgroundColor: 'none',
-            legend: {position: 'bottom',
+            legend: {position: 'top', maxLines: 3,
                  textStyle: {color: 'white' }
             },
             titleTextStyle: {
